@@ -18,3 +18,6 @@
 5. Once the import is confirmed, the script will poll the deployment profile endpoint every 15 seconds to see if the device is assigned to it.
 6. When the device is assigned, it will start a 60 second countdown before it runs sysprep.exe to reboot the computer.
 7. After reboot, the device will land on the Autopilot OOBE page.
+
+
+A try/catch statement is included for any errors, or if the device fails to be assigned. The user will be prompted accordingly.
