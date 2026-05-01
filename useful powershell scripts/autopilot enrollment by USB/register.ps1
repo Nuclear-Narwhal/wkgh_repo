@@ -4,11 +4,11 @@
 # ============================================
 
 # === CONFIG: Edit these five values ===
-$TenantId    = "8eb17273-4608-42a3-89ff-c4af9ea2d790"
-$AppId       = "b64d501f-7d67-46ce-969a-71a95be19211"
-$AppSecret   = "iRG8Q~LN~dlYPXCVur7VyMcg__n3s0AZIaxWvbC-"
-$GroupTag    = "TestRing"
-$ProfileName = "Testing UD Entra Join"
+$TenantId    = "TENANT ID HERE"
+$AppId       = "APP ID HERE"
+$AppSecret   = "APP SECRET HERE"
+$GroupTag    = "GROUP TAG HERE"
+$ProfileName = "PROFILE NAME HERE"
 # =======================================
 
 # Suppress prompts globally
